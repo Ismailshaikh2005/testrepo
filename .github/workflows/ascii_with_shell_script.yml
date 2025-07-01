@@ -3,12 +3,12 @@ name: ASCII Work Shell Script
 on: push
 
 jobs:
-    ascii_job:
+    ascii_job_2:
         runs-on: ubuntu-latest
         steps:
             - name : checkout repo
               uses: actions/checkout@v4
-              
+
             - name: List repo Files
               run: ls -ltra
 
