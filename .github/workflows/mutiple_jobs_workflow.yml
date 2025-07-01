@@ -1,4 +1,4 @@
-name: Generate ASCII Work
+name: Multiple Job Workflow
 
 on: push
 
