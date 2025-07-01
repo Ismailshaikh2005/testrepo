@@ -16,7 +16,7 @@ jobs:
               run: cowsay -f elephant "I never forget!" >> dragon.txt
             
             - name: Test File exists
-              run: grep -i "dragon" dragon.txt
+              run: grep -i "never" dragon.txt
 
             - name: Read File
               run: cat dragon.txt
